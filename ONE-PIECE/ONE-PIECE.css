@@ -1,0 +1,276 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+header, .intro, footer {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5)) no-repeat center fixed,
+                url(ONE-PIECE-Images/Going-Merry-&-Thousand-Sunny.jpg) no-repeat center fixed;
+    background-size: cover;
+    color: #f9faf8;
+    text-shadow: 0px 0px 5px black,
+                 0px 0px 20px black,
+                 0px 0px 40px white;    
+}
+
+header, .intro {
+    display: flex;
+    width: 100%;
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    gap: 15%;
+}
+
+.logo {
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.main-body h1 {
+    font-size: 48px;
+    font-weight: 900;
+    align-self: flex-start;
+    margin-bottom: -16px;
+}
+
+.intro-sub-text, li {
+    color: #e5e7eb;
+    font-size: 24px;
+}
+
+button {
+    background-color: #3882f6;
+    flex: 0 1 auto;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: #f9faf8;
+    font-weight: bold;
+    padding-bottom: 2px;
+    font-size: 24px;
+}
+
+header ul {
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    list-style: none;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+a:hover {
+    color: #3882f6;
+}
+
+.intro {
+    height: 100vh;
+    gap: 32px;
+}
+
+.intro-text {
+    margin-left: 15%;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+    margin-top: 40px;
+    margin-right: 15%;
+    min-width: 300px;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.main-body {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9faf8;
+    background-color: #1f2937;
+    flex-flow: column wrap;
+}
+
+.straw-hat-pirates {
+    flex-wrap: wrap;
+    padding: 64px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5)) no-repeat center,
+                url(ONE-PIECE-Images/One-Piece-Logo.jpg) no-repeat center;
+    background-size: cover;
+    align-self: stretch;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.straw-hat-pirates:hover {
+    color: gold;
+}
+
+.straw-hat-pirates h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.crew-members {
+    font-size: 18px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 36px;
+    flex-flow: row wrap;
+}
+
+.crew {
+    max-width: 200px;
+    color: #f9faf8;
+    transition:ease-in .7s;
+}
+
+.crew:hover {
+    color: gold;
+}
+
+.straw-hat-pirates-img {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0));
+    border: solid #3882f6;
+    border-radius: 5px;
+    transition: ease 0.1s;
+}
+
+.straw-hat-pirates-img:hover {
+    transform: scale(1.25);
+}
+
+#quote {
+    padding: 80px 35%;
+    background: url(ONE-PIECE-Images/Straw-Hat-Pirates.jpg) no-repeat center fixed;
+    background-size: cover;
+    font-size: 36px;
+    font-weight: 900;
+    font-style: italic;
+    color: #1F2937;
+    text-shadow: 0 0 5px #f9faf8,
+                 0 0 10px #f9faf8,
+                 0 0 20px #f9faf8;
+}
+
+#quote p{
+    mix-blend-mode:luminosity;
+}
+
+#author {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-up-section {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6)) no-repeat center,
+                url(ONE-PIECE-Images/Straw-Hat-Pirates-Jolly-Roger.jpg) no-repeat center;
+    background-size: cover;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 96px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin: 0px;
+    color: #f9faf8;
+    flex-flow: row wrap;
+}
+
+.sign-up-section button {
+    border: 2px solid #f9faf8;
+}
+
+button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+
+.sign-up-section p {
+    margin:0px;
+}
+
+.header-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sub-text {
+    font-size: 24px;
+}
+
+footer {
+    font-size: 24px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 24px 0px;
+    align-self: stretch;
+}
+
+
+
+@media only screen and (max-width: 783px){
+    .intro-text {
+        margin-right: 15%;
+        align-items: center;
+    }
+    .image {
+        margin-left: 15%;
+        height: 200px;
+    }
+    
+    .crew {
+        color: #f9faf8;
+    }
+}
+
+
+@media only screen and (max-width: 561px){
+
+    #quote {
+        padding: 32px 25%;
+    }
+}
+
+@media only screen and (max-width: 346px){
+    header ul {
+        margin-right: 10%;
+    }
+}
